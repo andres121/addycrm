@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'sessions' => 'Sesiones',
+    'visitors' => 'Visitantes',
+    'pageviews' => 'Pageviews',
+    'bounce_rate' => 'Tasa de rebote',
+    'page_session' => 'Páginas/Sesión',
+    'avg_duration' => 'Duración media Duration',
+    'percent_new_session' => 'Porcentaje de nuevas sesiones',
+    'new_users' => 'Nuevos visitantes',
+    'visits' => 'visitas',
+    'views' => 'vistas',
+    'view_id_not_specified' => 'Debe proporcionar un id de vista válido. El documento aquí: <a href="https://docs.botble.com/cms/:version/plugin-analytics" target="_blank">https://docs.botble.com/cms/:version/plugin-analytics</a>',
+    'credential_is_not_valid' => 'Las credenciales de análisis no son válidas. El documento aquí: <a href="https://docs.botble.com/cms/:version/plugin-analytics" target="_blank">https://docs.botble.com/cms/:version/plugin-analytics</a>',
+    'start_date_can_before_end_date' => 'La fecha de inicio :start_date no puede ser posterior a la fecha de finalización :end_date',
+    'wrong_configuration' => 'Para ver las analíticas necesitarás obtener un id de cliente de google analytics y añadirlo a tu configuración. <br /> También necesita datos de credenciales JSON. <br /> El documento aquí: <a href="https://docs.botble.com/cms/:version/plugin-analytics" target="_blank">https://docs.botble.com/cms/:version/plugin-analytics</a>',
+    'settings' => [
+        'title' => 'Google Analytics',
+        'description' => 'Credenciales de configuración para Google Analytics',
+        'tracking_code' => 'ID de seguimiento',
+        'tracking_code_placeholder' => 'Ejemplo: GA-12586526-8',
+        'view_id' => 'ID de la vista',
+        'view_id_description' => 'ID de la vista de Google Analytics',
+        'json_credential' => 'Credenciales de la cuenta de servicio',
+        'json_credential_description' => 'Credenciales de la cuenta de servicio',
+    ],
+    'widget_analytics_page' => 'Páginas más visitadas',
+    'widget_analytics_browser' => 'Top Browsers',
+    'widget_analytics_referrer' => 'Top Referrers',
+    'widget_analytics_general' => 'Análisis del sitio',
+];
